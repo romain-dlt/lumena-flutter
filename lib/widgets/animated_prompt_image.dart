@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_tailwind_colors/flutter_tailwind_colors.dart';
 import 'package:lumena_ai/models/models.dart';
-import 'package:lumena_ai/pages/edit_page.dart';
+import 'package:lumena_ai/pages/editor_page.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lumena_ai/widgets/widgets.dart';
 import 'package:lumena_ai/services/animation_sync_service.dart';

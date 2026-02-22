@@ -1,5 +1,5 @@
 export 'home_page.dart';
-export 'edit_page.dart';
+export 'editor_page.dart';
 export 'settings_page.dart';
 export 'sign_in_page.dart';
 export 'premium_paywall_page.dart';
