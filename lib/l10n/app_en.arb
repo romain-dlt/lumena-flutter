@@ -1,0 +1,800 @@
+{
+  "@@locale": "en",
+  "pranksCategoryLabel": "Pranks 🔥",
+  "@pranksCategoryLabel": {
+    "description": "Pranks category label"
+  },
+  "homelessPromptLabel": "Homeless",
+  "@homelessPromptLabel": {
+    "description": "Homeless prompt label"
+  },
+  "homelessPromptText": "Add a realistic homeless man standing inside the room. He looks toward the camera with a warm, grateful expression, as if he has just been welcomed in. Match the room's lighting, perspective, and shadows perfectly. The scene must look natural and believable, with no changes to the rest of the image.",
+  "@homelessPromptText": {
+    "description": "Homeless prompt text"
+  },
+  "plumberPromptLabel": "Plumber",
+  "@plumberPromptLabel": {
+    "description": "Plumber prompt label"
+  },
+  "plumberPromptText": "Add a realistic shirtless plumber inside the room, wearing work pants and holding plumbing tools, working on pipes or fixtures. His bare torso looks out of place and slightly uncomfortable, increasing the awkwardness of the scene. He appears odd, suspicious, or socially off, with an unusual expression or posture, as if something feels wrong. Match the room's lighting, perspective, shadows, and reflections perfectly. The scene must look natural, believable, and subtly unsettling, with no other changes to the image.",
+  "@plumberPromptText": {
+    "description": "Plumber prompt text"
+  },
+  "damagedCarPromptLabel": "Damaged Car",
+  "@damagedCarPromptLabel": {
+    "description": "Damaged car prompt label"
+  },
+  "damagedCarPromptText": "Modify the car in the image to look clearly damaged from a noticeable accident, while still being repairable and fully recognizable. Add multiple deep dents, stronger scratches, cracked or missing headlight covers, a visibly bent bumper or hood, misaligned panels, and paint damage, but do not turn the car into scrap or completely destroy it. Preserve the original environment, lighting, reflections, camera angle, and composition so the damage looks realistic, coherent, and naturally integrated into the scene.",
+  "@damagedCarPromptText": {
+    "description": "Damaged car prompt text"
+  },
+  "dirtyToiletsPromptLabel": "Dirty Toilets",
+  "@dirtyToiletsPromptLabel": {
+    "description": "Dirty toilets prompt label"
+  },
+  "dirtyToiletsPromptText": "Modify the clean toilet in the image to appear extremely dirty and unhygienic, as if it has been neglected for a long time. Add realistic stains, dried splashes, smears, urine marks, water discoloration, dirty bowl residue, splattered seat stains, and overall grime on the toilet and surrounding area. The mess should look severe but non-graphic, with no close-up gore or excessive detail. Preserve the original bathroom layout, lighting, camera angle, and proportions so the result looks believable and shocking at first glance.",
+  "@dirtyToiletsPromptText": {
+    "description": "Dirty toilets prompt text"
+  },
+  "brokenTvPromptLabel": "Broken TV",
+  "@brokenTvPromptLabel": {
+    "description": "Broken TV prompt label"
+  },
+  "brokenTvPromptText": "Modify the TV in the image to look severely damaged and unusable, as if it has suffered a serious malfunction or impact. Add a cracked or shattered screen, black dead zones, colored glitch lines, distorted pixels, and display artifacts, while keeping the TV physically recognizable and in place. The screen should clearly appear non-functional, even if the TV is powered on. Preserve the original room, lighting, reflections, camera angle, and composition so the damage looks realistic and convincing.",
+  "@brokenTvPromptText": {
+    "description": "Broken TV prompt text"
+  },
+  "relationshipsCategoryLabel": "Relationships 💞",
+  "@relationshipsCategoryLabel": {
+    "description": "Relationships category label"
+  },
+  "aiGirlfriendPromptLabel": "AI Girlfriend",
+  "@aiGirlfriendPromptLabel": {
+    "description": "AI Girlfriend prompt label"
+  },
+  "aiGirlfriendPromptText": "Recreate the image as a realistic photograph. Add a natural-looking girlfriend standing or sitting next to the man. She should look comfortable and naturally close, as if they are a real couple. Match lighting, perspective, scale, and shadows perfectly. Their interaction must feel subtle and authentic. Keep the man's face, body, and the background unchanged. No stylization, no exaggeration, pure photorealism.",
+  "@aiGirlfriendPromptText": {
+    "description": "AI Girlfriend prompt text"
+  },
+  "aiBoyfriendPromptLabel": "AI Boyfriend",
+  "@aiBoyfriendPromptLabel": {
+    "description": "AI Boyfriend prompt label"
+  },
+  "aiBoyfriendPromptText": "Recreate the image as a realistic photograph. Add a natural-looking boyfriend standing or sitting next to the person. He should appear relaxed and naturally close, as if they are a real couple. Match lighting, perspective, scale, and shadows perfectly. Their interaction must feel subtle and authentic. Keep the original person's face, body, and the background unchanged. No stylization, no exaggeration, pure photorealism.",
+  "@aiBoyfriendPromptText": {
+    "description": "AI Boyfriend prompt text"
+  },
+  "fashionCategoryLabel": "Fashion 👠",
+  "@fashionCategoryLabel": {
+    "description": "Fashion category label"
+  },
+  "changeHairstylePromptLabel": "Change Hairstyle",
+  "@changeHairstylePromptLabel": {
+    "description": "Change hairstyle prompt label"
+  },
+  "changeHairstylePromptText": "Recreate the image as a realistic photograph. Change the person's hairstyle to the following: [HAIRSTYLE DESCRIPTION]. The hair must look natural, with realistic volume, texture, and strands. Match lighting, shadows, hairline, and head shape perfectly. The hairstyle should blend seamlessly with the face and scalp, without distortion or artificial edges. Keep the face, expression, body, and background unchanged.",
+  "@changeHairstylePromptText": {
+    "description": "Change hairstyle prompt text"
+  },
+  "tattooTryOnPromptLabel": "Tattoo Try-On",
+  "@tattooTryOnPromptLabel": {
+    "description": "Tattoo try-on prompt label"
+  },
+  "tattooTryOnPromptText": "Recreate the image as a realistic photograph. Add a tattoo on the [BODY PART], following this description: [TATTOO DESCRIPTION]. The tattoo must follow the natural shape, curvature, and muscle structure of the skin. Match skin texture, pores, lighting, shadows, and perspective perfectly. The ink should look embedded under the skin, not printed or overlaid. No distortion, no stylization. Do not change anything else in the image.",
+  "@tattooTryOnPromptText": {
+    "description": "Tattoo try-on prompt text"
+  },
+  "outfitTryOnPromptLabel": "Outfit Try-On",
+  "@outfitTryOnPromptLabel": {
+    "description": "Outfit try-on prompt label"
+  },
+  "outfitTryOnPromptText": "Recreate the image as a realistic photograph. Replace the clothing on the person with the following outfit: [OUTFIT DESCRIPTION]. The outfit must fit the body naturally, following posture, proportions, and fabric behavior. Match lighting, shadows, folds, and perspective perfectly. The fabric should look worn, with natural wrinkles and depth, not pasted or painted. Keep the person's body, face, pose, and background unchanged.",
+  "@outfitTryOnPromptText": {
+    "description": "Outfit try-on prompt text"
+  },
+  "transformationCategoryLabel": "Transformation 🪄",
+  "@transformationCategoryLabel": {
+    "description": "Transformation category label"
+  },
+  "muscularPromptLabel": "Muscular",
+  "@muscularPromptLabel": {
+    "description": "Muscular prompt label"
+  },
+  "muscularPromptText": "Recreate the image as a realistic photograph. Adjust the person's pose so they are flexing their muscles naturally, as if consciously tensing their body. Enhance muscle definition and visible vascularity while keeping anatomy realistic and proportional. The flexed muscles must follow natural body mechanics, with accurate lighting, shadows, and skin texture. Keep the face, expression, identity, and background unchanged. No stylization, no exaggerated bodybuilding look, pure photorealism.",
+  "@muscularPromptText": {
+    "description": "Muscular prompt text"
+  },
+  "professionalPromptLabel": "Professional",
+  "@professionalPromptLabel": {
+    "description": "Professional prompt label"
+  },
+  "professionalPromptText": "Recreate the image as a realistic professional portrait. Keep the original person and face unchanged. Place them in a neutral, clean environment with a soft, balanced studio lighting and a plain gray background. Dress the person in a simple, elegant, and professional suit. The person should have a subtle, natural smile and a confident, upright posture. The result must look like a real high-quality LinkedIn profile photo, with no stylization or artificial effects.",
+  "@professionalPromptText": {
+    "description": "Professional prompt text"
+  },
+  "manToWomanPromptLabel": "Man to Woman",
+  "@manToWomanPromptLabel": {
+    "description": "Man to woman prompt label"
+  },
+  "manToWomanPromptText": "Transform the man in the image into his realistic female equivalent. Keep the photo exactly the same: same framing, same background, same environment, same pose, same posture, and same body position. Do NOT extend, crop, or generate any new body parts. Only modify gender-related traits while preserving identity and likeness: facial structure adapted naturally, softer features, feminine hairstyle, subtle feminine body characteristics where already visible. Maintain the original lighting, shadows, perspective, and image quality. High realism, seamless integration, no visual artifacts.",
+  "@manToWomanPromptText": {
+    "description": "Man to woman prompt text"
+  },
+  "womanToManPromptLabel": "Woman to Man",
+  "@womanToManPromptLabel": {
+    "description": "Woman to man prompt label"
+  },
+  "womanToManPromptText": "Transform the woman in the image into her realistic male equivalent. Keep the photo exactly the same: same framing, same background, same environment, same pose, same posture, and same body position. Do NOT extend, crop, or generate any new body parts. Only modify gender-related traits while preserving identity and likeness: stronger jawline, masculine facial features, masculine hairstyle, subtle masculine body characteristics where already visible. Maintain the original lighting, shadows, perspective, and image quality. High realism, seamless integration, no visual artifacts.",
+  "@womanToManPromptText": {
+    "description": "Woman to man prompt text"
+  },
+  "animalToHumanPromptLabel": "Animal to Human",
+  "@animalToHumanPromptLabel": {
+    "description": "Animal to human prompt label"
+  },
+  "animalToHumanPromptText": "Transform the animal in the image into a realistic human equivalent while preserving the animal's identity, posture, attitude, and distinctive traits. The human should clearly feel like the same being in human form, with recognizable facial structure, expression, body language, and presence inspired by the animal. Keep the original environment, lighting, camera angle, and composition unchanged. The transformation must look natural, photorealistic, and perfectly integrated into the scene.",
+  "@animalToHumanPromptText": {
+    "description": "Animal to human prompt text"
+  },
+  "avatarsCategoryLabel": "Avatars 🎭",
+  "@avatarsCategoryLabel": {
+    "description": "Avatars category label"
+  },
+  "iosMemojiPromptLabel": "iOS Memoji",
+  "@iosMemojiPromptLabel": {
+    "description": "iOS Memoji prompt label"
+  },
+  "iosMemojiPromptText": "Transform the person into a full-body iOS-style Memoji character. Keep the person's facial features, hairstyle, skin tone, and overall identity recognizable. If parts of the body are not visible in the original image, naturally imagine and complete them in a consistent way. Render the character with smooth, rounded shapes and soft colors, following official iOS Memoji style. Use a pure white background. The result should look like a clean, polished, full-body Apple Memoji.",
+  "@iosMemojiPromptText": {
+    "description": "iOS Memoji prompt text"
+  },
+  "snapchatBitmojiPromptLabel": "Snapchat Bitmoji",
+  "@snapchatBitmojiPromptLabel": {
+    "description": "Snapchat Bitmoji prompt label"
+  },
+  "snapchatBitmojiPromptText": "Recreate the person from the image as a full-body Bitmoji-style avatar, inspired by Snapchat Bitmoji visuals. Preserve the person's facial features, hairstyle, skin tone, expression, and posture so they remain clearly recognizable. Generate the entire body from head to toe, even if parts are not visible in the original image, while keeping the same pose and body language. Use clean cartoon proportions, smooth outlines, bright flat colors, and soft shading typical of Bitmoji. Place the avatar on a plain white background. The final result must look like an official Bitmoji character representing the person.",
+  "@snapchatBitmojiPromptText": {
+    "description": "Snapchat Bitmoji prompt text"
+  },
+  "pixelArtPromptLabel": "Pixel Art",
+  "@pixelArtPromptLabel": {
+    "description": "Pixel art prompt label"
+  },
+  "pixelArtPromptText": "Transform the person into a full-body pixel art avatar. Keep the person's main facial features, hairstyle, and general appearance recognizable. If parts of the body are not visible, realistically imagine and complete them. Render the avatar in a clean pixel art style with clear shapes, limited colors, and sharp pixels. Use a pure white background. The result should look like a well-designed full-body pixel character suitable for a profile or game avatar.",
+  "@pixelArtPromptText": {
+    "description": "Pixel art prompt text"
+  },
+  "minecraftAvatarPromptLabel": "Minecraft",
+  "@minecraftAvatarPromptLabel": {
+    "description": "Minecraft avatar prompt label"
+  },
+  "minecraftAvatarPromptText": "Transform the person into a full-body Minecraft-style character skin. The entire body must be fully visible from head to feet, with nothing cropped or missing. Preserve the same posture, body position, and body language as in the original image. Keep the person's facial features, hairstyle, and overall look recognizable in a blocky Minecraft aesthetic. If parts of the body are not visible, naturally imagine and complete them while strictly maintaining the original pose. Use flat colors, sharp pixel edges, and no shading or gradients. Plain white background. The result must look like a proper Minecraft player skin.",
+  "@minecraftAvatarPromptText": {
+    "description": "Minecraft avatar prompt text"
+  },
+  "environmentCategoryLabel": "Environment 🏞️",
+  "@environmentCategoryLabel": {
+    "description": "Environment category label"
+  },
+  "strangerThingsPromptLabel": "Stranger Things",
+  "@strangerThingsPromptLabel": {
+    "description": "Stranger Things prompt label"
+  },
+  "strangerThingsPromptText": "Recreate the exact same image and integrate the person into the world of Stranger Things. Preserve the main subject fully realistic and unchanged (face, body, clothes, pose, expression). Transform the entire environment to match the Stranger Things atmosphere: an ominous, stormy sky without rain, glowing scarlet-red clouds, and red lightning illuminating the scene. Place the Mind Flayer from Stranger Things clearly visible in the distant sky, massive and menacing, partially obscured by clouds, faithful to the series design. Keep the original composition, perspective, and camera angle. The scene must feel cinematic, dark, supernatural, and unmistakably inspired by Stranger Things, as if the photo was taken during an Upside Down event.",
+  "@strangerThingsPromptText": {
+    "description": "Stranger Things prompt text"
+  },
+  "minecraftEnvironmentPromptLabel": "Minecraft",
+  "@minecraftEnvironmentPromptLabel": {
+    "description": "Minecraft environment prompt label"
+  },
+  "minecraftEnvironmentPromptText": "Recreate the exact same image, but transform the entire environment into a Minecraft world. Rebuild the background strictly using official Minecraft blocks, textures, and proportions. Do NOT modify the main subject (the person), keep them fully realistic and unchanged. Convert all other people, animals, objects, and interactive elements into their Minecraft equivalents (e.g. dog = Minecraft wolf, glass of water = Minecraft water bucket). Preserve the original composition, camera angle, perspective, and positions. The result must look like a real photo taken inside Minecraft, with the subject standing in the real world.",
+  "@minecraftEnvironmentPromptText": {
+    "description": "Minecraft environment prompt text"
+  },
+  "legoPromptLabel": "LEGO",
+  "@legoPromptLabel": {
+    "description": "LEGO prompt label"
+  },
+  "legoPromptText": "Recreate the exact same image, but transform the entire environment into a LEGO world. Rebuild the background using LEGO bricks, studs, plastic textures, and LEGO-scale proportions. Do NOT modify the main subject (the person), keep them fully realistic and unchanged. Convert all other people, animals, and objects into their LEGO equivalents (minifigures, LEGO animals, LEGO accessories). Preserve the original composition, camera angle, perspective, and positions. The final image must look like a real photo taken inside a LEGO world, with the real subject standing among LEGO elements.",
+  "@legoPromptText": {
+    "description": "LEGO prompt text"
+  },
+  "filtersCategoryLabel": "Filters 📸",
+  "@filtersCategoryLabel": {
+    "description": "Filters category label"
+  },
+  "fisheyeLensPromptLabel": "Fish-Eye Lens",
+  "@fisheyeLensPromptLabel": {
+    "description": "Fish-eye lens prompt label"
+  },
+  "fisheyeLensPromptText": "Preserve the original image and subject exactly as they are. Apply a realistic high-end fisheye camera lens effect, as if the photo was taken extremely close to the face. Strong wide-angle distortion with visible fisheye curvature: enlarged facial features near the lens, curved edges, subtle barrel distortion. Maintain natural skin texture, realistic proportions, and accurate lighting. High-quality camera look, sharp focus, no artificial or cartoon effects. The result should look like a genuine close-up photo taken with a professional fisheye lens.",
+  "@fisheyeLensPromptText": {
+    "description": "Fish-eye lens prompt text"
+  },
+  "oldPhotoRestorePromptLabel": "Old Photo Restore",
+  "@oldPhotoRestorePromptLabel": {
+    "description": "Old photo restore prompt label"
+  },
+  "oldPhotoRestorePromptText": "Preserve the original composition, people, facial features, poses, and background exactly as in the source image. Fully restore this old, damaged black-and-white or faded photo to look like it was taken today with a modern high-end camera. Repair scratches, stains, tears, blur, and noise. Reconstruct missing details naturally without altering identity. Add realistic modern colorization with accurate skin tones and materials, balanced contrast, sharp focus, and clean lighting. No artistic reinterpretation, no stylization, no AI artifacts. The final result must look like a genuine contemporary photograph, not an edited or colorized old photo.",
+  "@oldPhotoRestorePromptText": {
+    "description": "Old photo restore prompt text"
+  },
+  "woolPromptLabel": "Wool",
+  "@woolPromptLabel": {
+    "description": "Wool prompt label"
+  },
+  "woolPromptText": "Regenerate the exact same image, but make everything out of thick, dense wool and needle-felted fabric. Every element must have chunky fibers, heavy yarn, visible felt texture, soft fuzzy edges, and clear textile volume. No paint, no plastic, no clay, no CGI, only thick wool. Preserve the exact composition, perspective, poses, and proportions. Colors must look yarn-dyed. Lighting should reveal fiber depth and softness. The result must look like a physical wool sculpture, unmistakably made of thick wool.",
+  "@woolPromptText": {
+    "description": "Wool prompt text"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings title"
+  },
+  "account": "ACCOUNT",
+  "@account": {
+    "description": "account"
+  },
+  "lumenaPro": "LUMENA PRO",
+  "@lumenaPro": {
+    "description": "Lumena pro"
+  },
+  "legal": "LEGAL",
+  "@legal": {
+    "description": "legal"
+  },
+  "website": "Website",
+  "@website": {
+    "description": "website"
+  },
+  "legalNotice": "Legal Notice",
+  "@legalNotice": {
+    "description": "Legal notice"
+  },
+  "termsOfService": "Terms of Service",
+  "@termsOfService": {
+    "description": "Terms of service"
+  },
+  "privacyPolicy": "Privacy Policy",
+  "@privacyPolicy": {
+    "description": "Privacy policy"
+  },
+  "restoreFailed": "Restore Failed",
+  "@restoreFailed": {
+    "description": "Restore failed"
+  },
+  "restoreFailedDescription": "An error occurred while restoring your purchases. Please, try again.",
+  "@restoreFailedDescription": {
+    "description": "Restore failed description"
+  },
+  "changePlan": "Change Plan",
+  "@changePlan": {
+    "description": "Change plan"
+  },
+  "manage": "Manage",
+  "@manage": {
+    "description": "manage"
+  },
+  "upgrade": "Upgrade",
+  "@upgrade": {
+    "description": "upgrade"
+  },
+  "signOut": "Sign Out",
+  "@signOut": {
+    "description": "Sign out"
+  },
+  "signOutConfirmation": "Are you sure you want to sign out?",
+  "@signOutConfirmation": {
+    "description": "Sign out confirmation"
+  },
+  "signOutDescription": "You will need to sign in again to access your account.",
+  "@signOutDescription": {
+    "description": "Sign out description"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "cancel"
+  },
+  "monthlyEditsUsage": "Monthly Edits Usage",
+  "@monthlyEditsUsage": {
+    "description": "Monthly edits usage"
+  },
+  "signInToView": "Sign in to view",
+  "@signInToView": {
+    "description": "Sign in to view"
+  },
+  "remaining": "{remaining, plural, =0{{remaining} / {max} remaining} =1{{remaining} / {max} remaining} other{{remaining} / {max} remaining}}",
+  "@remaining": {
+    "description": "remaining edits with plural support",
+    "placeholders": {
+      "remaining": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "counting": "Counting...",
+  "@counting": {
+    "description": "counting"
+  },
+  "restorePurchases": "Restore Purchases",
+  "@restorePurchases": {
+    "description": "Restore purchases"
+  },
+  "restore": "Restore",
+  "@restore": {
+    "description": "restore"
+  },
+  "noPurchases": "No Purchases",
+  "@noPurchases": {
+    "description": "No purchases"
+  },
+  "noPurchasesDescription": "We could not find any previous purchases associated with your account.",
+  "@noPurchasesDescription": {
+    "description": "No purchases description"
+  },
+  "restoreSuccessful": "Restore Successful",
+  "@restoreSuccessful": {
+    "description": "Restore successful"
+  },
+  "restoreSuccessfulDescription": "You have successfully restored your purchases! You can now enjoy the full power of Lumena PRO.",
+  "@restoreSuccessfulDescription": {
+    "description": "Restore successful description"
+  },
+  "email": "Email",
+  "@email": {
+    "description": "email"
+  },
+  "signIn": "Sign In",
+  "@signIn": {
+    "description": "Sign in"
+  },
+  "imageSavedToGallery": "Image Saved to Gallery",
+  "@imageSavedToGallery": {
+    "description": "Image saved to gallery"
+  },
+  "failedToSaveImage": "Failed to Save Image",
+  "@failedToSaveImage": {
+    "description": "Failed to save image"
+  },
+  "imageSavedToGalleryDescription": "Your image has been successfully saved to your gallery.",
+  "@imageSavedToGalleryDescription": {
+    "description": "Image saved to gallery description"
+  },
+  "failedToSaveImageDescription": "There was an error saving your image. Please, try again.",
+  "@failedToSaveImageDescription": {
+    "description": "Failed to save image description"
+  },
+  "imageShareDescription": "Check out my edited image using Lumena AI! ✨",
+  "@imageShareDescription": {
+    "description": "Image share description"
+  },
+  "unexpectedError": "Unexpected Error",
+  "@unexpectedError": {
+    "description": "Unexpected error"
+  },
+  "unexpectedErrorImageGenerationDescription": "Something wrong happened while generating the image. Please, try again.",
+  "@unexpectedErrorImageGenerationDescription": {
+    "description": "Unexpected error image generation"
+  },
+  "exitConfirmTitle": "Are you sure you want to exit?",
+  "@exitConfirmTitle": {
+    "description": "Exit confirm title"
+  },
+  "exitConfirmDescription": "Leaving this page will discard any unsaved changes.",
+  "@exitConfirmDescription": {
+    "description": "Exit confirm description"
+  },
+  "exit": "Exit",
+  "@exit": {
+    "description": "exit"
+  },
+  "stayHere": "Stay Here",
+  "@stayHere": {
+    "description": "Stay here"
+  },
+  "photoEditor": "Photo Editor",
+  "@photoEditor": {
+    "description": "Photo editor"
+  },
+  "editsRemainingThisMonth": "{count, plural, =0{No edits remaining for this month} =1{1 edit remaining for this month} other{{count} edits remaining for this month}}",
+  "@editsRemainingThisMonth": {
+    "description": "Edits remaining with plural support",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "checkingEditBalance": "Checking your edit balance...",
+  "@checkingEditBalance": {
+    "description": "Checking edit balance"
+  },
+  "keepEditing": "Keep Editing",
+  "@keepEditing": {
+    "description": "Keep editing"
+  },
+  "download": "Download",
+  "@download": {
+    "description": "download"
+  },
+  "share": "Share",
+  "@share": {
+    "description": "share"
+  },
+  "generate": "Generate",
+  "@generate": {
+    "description": "generate"
+  },
+  "promptInputPlaceholder": "Describe what you want to edit...",
+  "@promptInputPlaceholder": {
+    "description": "Prompt input placeholder"
+  },
+  "pictureInputPlaceholder": "Tap to select a picture",
+  "@pictureInputPlaceholder": {
+    "description": "Picture input placeholder"
+  },
+  "loadingSubtitle1": "Shaping the unseen...",
+  "@loadingSubtitle1": {
+    "description": "Shaping the unseen"
+  },
+  "loadingSubtitle2": "Weaving digital dreams...",
+  "@loadingSubtitle2": {
+    "description": "Weaving digital dreams"
+  },
+  "loadingSubtitle3": "Painting with pixels...",
+  "@loadingSubtitle3": {
+    "description": "Painting with pixels"
+  },
+  "loadingSubtitle4": "Crafting visual magic...",
+  "@loadingSubtitle4": {
+    "description": "Crafting visual magic"
+  },
+  "loadingSubtitle5": "Bending reality...",
+  "@loadingSubtitle5": {
+    "description": "Bending reality"
+  },
+  "loadingSubtitle6": "Conjuring imagination...",
+  "@loadingSubtitle6": {
+    "description": "Conjuring imagination"
+  },
+  "loadingSubtitle7": "Sculpting light...",
+  "@loadingSubtitle7": {
+    "description": "Sculpting light"
+  },
+  "loadingSubtitle8": "Transcending boundaries...",
+  "@loadingSubtitle8": {
+    "description": "Transcending boundaries"
+  },
+  "lumenaAI": "Lumena AI",
+  "@lumenaAI": {
+    "description": "Lumena A I"
+  },
+  "imageSource": "Image Source",
+  "@imageSource": {
+    "description": "Image source"
+  },
+  "imageSourceDescription": "Choose the source of the image you want to edit.",
+  "@imageSourceDescription": {
+    "description": "Image source description"
+  },
+  "camera": "Camera",
+  "@camera": {
+    "description": "camera"
+  },
+  "gallery": "Gallery",
+  "@gallery": {
+    "description": "gallery"
+  },
+  "premiumHookTitle": "Enjoy **Lumena PRO** for **FREE**",
+  "@premiumHookTitle": {
+    "description": "Premium hook page title with highlighted parts"
+  },
+  "continueButton": "Continue",
+  "@continueButton": {
+    "description": "Continue button"
+  },
+  "howFreeTrialWorks": "How the **free** trial works",
+  "@howFreeTrialWorks": {
+    "description": "Paywall title with highlighted free"
+  },
+  "step1Title": "Today",
+  "@step1Title": {
+    "description": "step1title"
+  },
+  "step1Description": "Unlock access to Lumena PRO",
+  "@step1Description": {
+    "description": "step1description"
+  },
+  "step2Title": "In 2 days",
+  "@step2Title": {
+    "description": "step2title"
+  },
+  "step2Description": "We'll send you a reminder before your trial ends",
+  "@step2Description": {
+    "description": "step2description"
+  },
+  "step3Title": "In 3 days",
+  "@step3Title": {
+    "description": "step3title"
+  },
+  "step3Description": "Your PRO subscription will begin, unless you cancel it before",
+  "@step3Description": {
+    "description": "step3description"
+  },
+  "threeDayFreeTrial": "3-DAY FREE TRIAL",
+  "@threeDayFreeTrial": {
+    "description": "Three day free trial"
+  },
+  "notEligibleForFreeTrial": "You are no longer eligible for the free trial",
+  "@notEligibleForFreeTrial": {
+    "description": "Message when user is not eligible for free trial"
+  },
+  "freeTrialExpirationTitle": "Your free trial ends soon!",
+  "@freeTrialExpirationTitle": {
+    "description": "Title of the notification when free trial is expiring"
+  },
+  "freeTrialExpirationBody": "Your 3-day free trial will expire in 24 hours. Keep enjoying Lumena PRO!",
+  "@freeTrialExpirationBody": {
+    "description": "Body of the notification when free trial is expiring"
+  },
+  "monthly": "Monthly",
+  "@monthly": {
+    "description": "monthly"
+  },
+  "pricePerMonth": "{price} / month",
+  "@pricePerMonth": {
+    "description": "Price per month",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "weekly": "Weekly",
+  "@weekly": {
+    "description": "weekly"
+  },
+  "pricePerWeek": "{price} / week",
+  "@pricePerWeek": {
+    "description": "Price per week",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "subscribeForPrice": "Subscribe for {price}",
+  "@subscribeForPrice": {
+    "description": "subscribeForPrice",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "noCommitmentCancelAnytime": "No commitment, cancel anytime.",
+  "@noCommitmentCancelAnytime": {
+    "description": "No commitment cancel anytime"
+  },
+  "editsPerMonth": "{edits} edits / month",
+  "@editsPerMonth": {
+    "description": "Edits per month",
+    "placeholders": {
+      "edits": {
+        "type": "int"
+      }
+    }
+  },
+  "purchaseFailure": "Purchase Failure",
+  "@purchaseFailure": {
+    "description": "Purchase failure"
+  },
+  "purchaseFailureDescription": "Something wrong happened during the purchase process. Please, try again.",
+  "@purchaseFailureDescription": {
+    "description": "Purchase failure description"
+  },
+  "congratulations": "Congratulations!",
+  "@congratulations": {
+    "description": "congratulations"
+  },
+  "congratulationsDescription": "You are now a member of Lumena PRO! You can now enjoy the full power of the app.",
+  "@congratulationsDescription": {
+    "description": "Congratulations description"
+  },
+  "okay": "Okay",
+  "@okay": {
+    "description": "okay"
+  },
+  "parametersReminderTitle": "Don't Forget the Parameters!",
+  "@parametersReminderTitle": {
+    "description": "Parameters reminder dialog title"
+  },
+  "parametersReminderDescription": "This prompt contains parameters in brackets (e.g., [BODY PART], [DESCRIPTION]). Make sure to replace them with your own text before generating an image.",
+  "@parametersReminderDescription": {
+    "description": "Parameters reminder dialog description"
+  },
+  "alreadyPro": "Already PRO",
+  "@alreadyPro": {
+    "description": "Already pro"
+  },
+  "alreadyProDescription": "You are already a PRO member. Go to the settings to manage your plan.",
+  "@alreadyProDescription": {
+    "description": "Already pro description"
+  },
+  "welcomeToLumena": "Welcome to Lumena",
+  "@welcomeToLumena": {
+    "description": "welcomeToLumena"
+  },
+  "editAnythingWithText": "Edit Anything With Text",
+  "@editAnythingWithText": {
+    "description": "Edit anything with text"
+  },
+  "getStarted": "Get Started",
+  "@getStarted": {
+    "description": "Get started"
+  },
+  "linkedLegalNotice": "By continuing, you agree to our [Terms of Service] and [Privacy Policy].",
+  "@linkedLegalNotice": {
+    "description": "Legal notice with links marked by [brackets]"
+  },
+  "next": "Next",
+  "@next": {
+    "description": "next"
+  },
+  "chooseYourPicture": "Choose Your Picture",
+  "@chooseYourPicture": {
+    "description": "Choose your picture"
+  },
+  "typeYourEdit": "Type Your Edit",
+  "@typeYourEdit": {
+    "description": "Type your edit"
+  },
+  "examplePromptGirlfriend": "Add me a girlfriend",
+  "@examplePromptGirlfriend": {
+    "description": "Example prompt girlfriend"
+  },
+  "watchItTurnReal": "Watch It Turn Real",
+  "@watchItTurnReal": {
+    "description": "Watch it turn real"
+  },
+  "currentPlan": "Current Plan",
+  "@currentPlan": {
+    "description": "Current plan"
+  },
+  "changeYourPlanToWeekly": "Change Your Plan to Weekly",
+  "@changeYourPlanToWeekly": {
+    "description": "Change your plan to weekly"
+  },
+  "changeYourPlanToMonthly": "Change Your Plan to Monthly",
+  "@changeYourPlanToMonthly": {
+    "description": "Change your plan to monthly"
+  },
+  "weeklyPlan": "Weekly Plan",
+  "@weeklyPlan": {
+    "description": "Weekly plan"
+  },
+  "monthlyPlan": "Monthly Plan",
+  "@monthlyPlan": {
+    "description": "Monthly plan"
+  },
+  "month": "month",
+  "@month": {
+    "description": "month"
+  },
+  "week": "week",
+  "@week": {
+    "description": "week"
+  },
+  "upgradeToMonthly": "Upgrade to Monthly",
+  "@upgradeToMonthly": {
+    "description": "Upgrade to monthly"
+  },
+  "switchToWeekly": "Switch to Weekly",
+  "@switchToWeekly": {
+    "description": "Switch to weekly"
+  },
+  "cancelSubscription": "Cancel Subscription",
+  "@cancelSubscription": {
+    "description": "Cancel subscription"
+  },
+  "subscriptionActiveNotice": "Your subscription will remain active until the end of the current billing period",
+  "@subscriptionActiveNotice": {
+    "description": "Subscription active notice"
+  },
+  "cancelSubscriptionQuestion": "Cancel Subscription?",
+  "@cancelSubscriptionQuestion": {
+    "description": "Cancel subscription question"
+  },
+  "cancelSubscriptionQuestionDescription": "Are you sure you want to cancel your Lumena PRO subscription? You will lose access to premium features at the end of your billing period.",
+  "@cancelSubscriptionQuestionDescription": {
+    "description": "Cancel subscription description"
+  },
+  "keepPro": "Keep PRO",
+  "@keepPro": {
+    "description": "Keep pro"
+  },
+  "cancelSubscriptionDescription": "To cancel your Lumena PRO subscription, please go to your subscription settings in the Google Play Store.",
+  "@cancelSubscriptionDescription": {
+    "description": "Cancel subscription description"
+  },
+  "fetchingPrice": "Fetching price...",
+  "@fetchingPrice": {
+    "description": "Fetching price"
+  },
+  "unableToDetectCurrentPlan": "Unable to Detect Your Current Plan",
+  "@unableToDetectCurrentPlan": {
+    "description": "Unable to detect current plan"
+  },
+  "unableToDetectCurrentPlanDescription": "Please try again later or contact support if the problem persists.",
+  "@unableToDetectCurrentPlanDescription": {
+    "description": "Unable to detect current plan"
+  },
+  "planChanged": "Plan Changed",
+  "@planChanged": {
+    "description": "Plan changed"
+  },
+  "planChangedDescription": "Your subscription plan has been updated.",
+  "@planChangedDescription": {
+    "description": "Plan changed description"
+  },
+  "planChangeFailed": "Plan Change Failed",
+  "@planChangeFailed": {
+    "description": "planChangeFailed"
+  },
+  "planChangeFailedDescription": "Something went wrong during the upgrade process. Please try again.",
+  "@planChangeFailedDescription": {
+    "description": "Plan change failed description"
+  },
+  "signInToContinue": "Sign In to Continue",
+  "@signInToContinue": {
+    "description": "Sign in to continue"
+  },
+  "continueWithGoogle": "Continue with Google",
+  "@continueWithGoogle": {
+    "description": "Continue with Google"
+  },
+  "noEditsRemaining": "No Edits Remaining",
+  "@noEditsRemaining": {
+    "description": "No edits remaining"
+  },
+  "noEditsRemainingDescriptionPro": "You have used all your monthly edits for this month. Come back next month!",
+  "@noEditsRemainingDescriptionPro": {
+    "description": "No edits remaining description pro"
+  },
+  "noEditsRemainingDescriptionNonPro": "You need to be PRO to edit images. Please upgrade to PRO to continue.",
+  "@noEditsRemainingDescriptionNonPro": {
+    "description": "No edits remaining description non pro"
+  },
+  "noInternetConnectionTitle": "No Internet Connection",
+  "@noInternetConnectionTitle": {
+    "description": "Title for no internet connection dialog"
+  },
+  "noInternetConnectionDescription": "This app requires an internet connection to function. Please check your connection and try again.",
+  "@noInternetConnectionDescription": {
+    "description": "Description for no internet connection dialog"
+  },
+  "upgradeToPro": "Upgrade to PRO",
+  "@upgradeToPro": {
+    "description": "Upgrade to pro"
+  },
+  "rateUsTitle": "Enjoying Lumena?",
+  "@rateUsTitle": {
+    "description": "Rate us dialog title"
+  },
+  "rateUsDescription": "If you love using Lumena AI, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!",
+  "@rateUsDescription": {
+    "description": "Rate us dialog description"
+  },
+  "rateUsButton": "Rate",
+  "@rateUsButton": {
+    "description": "Rate us button"
+  },
+  "noThanks": "No thanks",
+  "@noThanks": {
+    "description": "No thanks button"
+  }
+}
