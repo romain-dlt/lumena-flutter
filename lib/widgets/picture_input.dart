@@ -184,107 +184,119 @@ class _PictureInputState extends State<PictureInput>
           ? null
           : _showImageSourceDialog,
       enabled: !widget.isLoading && widget.isEditable,
-      child: Container(
-        height: double.infinity,
-        width: double.infinity,
-        padding: EdgeInsets.all(16.r),
-        decoration: BoxDecoration(
-          color: TWColors.slate.shade50,
-          border: Border.all(color: TWColors.slate.shade300),
-          borderRadius: BorderRadius.circular(16.r),
-        ),
-        child: !_hasImage
-            ? _picturePlaceholder()
-            : Stack(
-                alignment: Alignment.center,
-                children: [
-                  Center(
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(16.r),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(16.r),
+        child: Container(
+          height: double.infinity,
+          width: double.infinity,
+          padding: _hasImage ? EdgeInsets.zero : EdgeInsets.all(16.r),
+          decoration: BoxDecoration(
+            color: TWColors.slate.shade50,
+            border: _hasImage
+                ? null
+                : Border.all(color: TWColors.slate.shade300),
+            borderRadius: BorderRadius.circular(16.r),
+          ),
+          child: !_hasImage
+              ? _picturePlaceholder()
+              : Stack(
+                  alignment: Alignment.center,
+                  children: [
+                    Center(
                       child: _selectedImageFile != null
-                          ? Image.file(_selectedImageFile!, fit: BoxFit.cover)
+                          ? Image.file(
+                              _selectedImageFile!,
+                              fit: BoxFit.cover,
+                              width: double.infinity,
+                              height: double.infinity,
+                            )
                           : Image.memory(
                               _selectedImageData!,
                               fit: BoxFit.cover,
+                              width: double.infinity,
+                              height: double.infinity,
                             ),
                     ),
-                  ),
-                  if (widget.isLoading)
-                    Positioned.fill(
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(16.r),
-                        child: BackdropFilter(
-                          filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
-                          child: Stack(
-                            children: [
-                              Container(
-                                color: TWColors.slate.shade50.withAlpha(100),
-                              ),
-                              AnimatedBuilder(
-                                animation: _sparkleController,
-                                builder: (context, child) {
-                                  return LayoutBuilder(
-                                    builder: (context, constraints) {
-                                      return CustomPaint(
-                                        painter: SparklesPainter(
-                                          animation: _sparkleController,
-                                        ),
-                                        size: Size(
-                                          constraints.maxWidth,
-                                          constraints.maxHeight,
-                                        ),
-                                      );
-                                    },
-                                  );
-                                },
-                              ),
-                              Center(
-                                child: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  crossAxisAlignment: CrossAxisAlignment.center,
-                                  children: [
-                                    SvgPicture.asset(
-                                      'assets/icons/standalone-colored-lumena-icon.svg',
-                                      width: 70.w,
-                                    ),
-                                    SizedBox(height: 16.h),
-                                    Text(
-                                      context.t.lumenaAI,
-                                      style: TextStyle(
-                                        fontSize: 24.sp,
-                                        fontWeight: FontWeight.w600,
-                                        color: TWColors.slate.shade900,
-                                      ),
-                                    ),
-                                    SizedBox(height: 8.h),
-                                    AnimatedSwitcher(
-                                      duration: Duration(milliseconds: 250),
-                                      transitionBuilder: (child, animation) {
-                                        return FadeTransition(
-                                          opacity: animation,
-                                          child: child,
+                    if (widget.isLoading)
+                      Positioned.fill(
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(16.r),
+                          child: BackdropFilter(
+                            filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
+                            child: Stack(
+                              children: [
+                                Container(
+                                  color: TWColors.slate.shade50.withAlpha(100),
+                                ),
+                                AnimatedBuilder(
+                                  animation: _sparkleController,
+                                  builder: (context, child) {
+                                    return LayoutBuilder(
+                                      builder: (context, constraints) {
+                                        return CustomPaint(
+                                          painter: SparklesPainter(
+                                            animation: _sparkleController,
+                                          ),
+                                          size: Size(
+                                            constraints.maxWidth,
+                                            constraints.maxHeight,
+                                          ),
                                         );
                                       },
-                                      child: Text(
-                                        _currentLoadingSubtitle,
-                                        key: ValueKey(_currentLoadingSubtitle),
+                                    );
+                                  },
+                                ),
+                                Center(
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    children: [
+                                      SvgPicture.asset(
+                                        'assets/icons/standalone-colored-lumena-icon.svg',
+                                        width: 70.w,
+                                      ),
+                                      SizedBox(height: 16.h),
+                                      Text(
+                                        context.t.lumenaAI,
                                         style: TextStyle(
-                                          fontSize: 16.sp,
-                                          color: TWColors.slate.shade900
-                                              .withAlpha(180),
+                                          fontSize: 24.sp,
+                                          fontWeight: FontWeight.w600,
+                                          color: TWColors.slate.shade900,
                                         ),
                                       ),
-                                    ),
-                                  ],
+                                      SizedBox(height: 8.h),
+                                      AnimatedSwitcher(
+                                        duration: Duration(milliseconds: 250),
+                                        transitionBuilder: (child, animation) {
+                                          return FadeTransition(
+                                            opacity: animation,
+                                            child: child,
+                                          );
+                                        },
+                                        child: Text(
+                                          _currentLoadingSubtitle,
+                                          key: ValueKey(
+                                            _currentLoadingSubtitle,
+                                          ),
+                                          style: TextStyle(
+                                            fontSize: 16.sp,
+                                            color: TWColors.slate.shade900
+                                                .withAlpha(180),
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
                                 ),
-                              ),
-                            ],
+                              ],
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                ],
-              ),
+                  ],
+                ),
+        ),
       ),
     );
   }
