@@ -1,7 +1,7 @@
 name: lumena_ai
 description: "AI Photo Editor. Transform your photos with creative prompts in seconds."
 publish_to: "none"
-version: 0.3.0+26
+version: 0.3.0+27
 
 environment:
    sdk: ^3.10.4
