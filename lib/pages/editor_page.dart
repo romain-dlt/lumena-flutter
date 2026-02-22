@@ -433,7 +433,6 @@ class _EditPageState extends State<EditPage> {
                     bottom: keyboardHeight,
                     child: Container(
                       key: _bottomContentKey,
-                      color: TWColors.slate.shade200,
                       padding: EdgeInsets.fromLTRB(20.w, 20.h, 20.w, 20.h),
                       child: Column(
                         mainAxisSize: MainAxisSize.min,

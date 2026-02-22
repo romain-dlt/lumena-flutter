@@ -1,3 +1,4 @@
+import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_tailwind_colors/flutter_tailwind_colors.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -15,28 +16,36 @@ class PromptInput extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.all(16.r),
-      decoration: BoxDecoration(
-        color: isDisabled ? TWColors.slate.shade100 : TWColors.slate.shade50,
-        border: Border.all(color: TWColors.slate.shade300),
-        borderRadius: BorderRadius.circular(16.r),
-      ),
-      child: TextField(
-        controller: controller,
-        enabled: !isDisabled,
-        keyboardType: TextInputType.multiline,
-        maxLines: 3,
-        decoration: InputDecoration(
-          hintText: context.t.promptInputPlaceholder,
-          hintStyle: TextStyle(
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(16.r),
+      child: BackdropFilter(
+        filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+        child: Container(
+          padding: EdgeInsets.all(16.r),
+          decoration: BoxDecoration(
             color: isDisabled
-                ? TWColors.slate.shade200
-                : TWColors.slate.shade400,
+                ? TWColors.slate.shade100.withAlpha(200)
+                : TWColors.slate.shade50.withAlpha(200),
+            border: Border.all(color: TWColors.slate.shade300),
+            borderRadius: BorderRadius.circular(16.r),
           ),
-          border: InputBorder.none,
+          child: TextField(
+            controller: controller,
+            enabled: !isDisabled,
+            keyboardType: TextInputType.multiline,
+            maxLines: 3,
+            decoration: InputDecoration(
+              hintText: context.t.promptInputPlaceholder,
+              hintStyle: TextStyle(
+                color: isDisabled
+                    ? TWColors.slate.shade200
+                    : TWColors.slate.shade400,
+              ),
+              border: InputBorder.none,
+            ),
+            style: TextStyle(fontSize: 16.sp, color: TWColors.slate.shade900),
+          ),
         ),
-        style: TextStyle(fontSize: 16.sp, color: TWColors.slate.shade900),
       ),
     );
   }
